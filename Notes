@@ -1,0 +1,12 @@
+--Having adjacent elemets is impossible, and we need to wrap them. In order to avoid
+nested and unnecessary div elements we can use wrapper or a react module called Fragment.
+
+
+--Using react portals will make the structure of rendered html code more similar to UI of website. So 
+when it comes to clean code you can say that this is more readable.
+
+Generally, fragment and portals give semantically a cleaner code.
+
+--While using useState we need to listen for every values changes on inputs. But we only need the latest value before submitting the inputes. That is why we use Ref. useRef gives an object with the property of current which itself has value property. for resetting also we can manipulate the DOM manually. However, we are advised agaist that.
+
+--Once you are using a non-react feature to change the value of inputes => it is called uncontrolled component.
